@@ -1,0 +1,25 @@
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/ant-build/LoteriasVenezuela.ap_ \
+ : /opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/res/drawable-xhdpi/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/res/values/strings.xml \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/res/drawable-hdpi/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/res/drawable/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/res/drawable-mdpi/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/res/xml/config.xml \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/res/drawable-ldpi/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/ant-build/res/drawable-xhdpi/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/ant-build/res/drawable-hdpi/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/ant-build/res/drawable/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/ant-build/res/drawable-mdpi/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/ant-build/res/drawable-ldpi/icon.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/_where-is-www.txt \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/index.html \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/img \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/cordova.js \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/js \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/css \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/cordova_plugins.js \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/img/logo.png \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/js/index.js \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/assets/www/css/index.css \
+/opt/proyectos/appLoterias Venezuela/App/LoteriasVenezuela/platforms/android/ant-build/AndroidManifest.xml \
