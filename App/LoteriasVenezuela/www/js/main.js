@@ -1,47 +1,52 @@
-
-
-
+var resultado ; //obj con los datos
+//Cargo cuando cargue
 $(document).ready(function () {
-
-	myurl = "http://nodejs-fyc.rhcloud.com/";
-
-	jQuery.ajax({
-	  type: 'GET',
-	  dataType: "json",
-	  crossDomain:true,
-	  url: myurl ,
-	  success: function() { console.log('Success!'); },                                                                                                                                                                                       
-	  error: function() { console.log('Uh Oh!'); }, 
-	    
-	  }).done(function ( data ) {
-	 console.log(data);
-	});
-
+	
+	get();
+	
 	
 });
 
 
-
-//$(document).ready(function () {
-//	var url = 'http://nodejs-fyc.rhcloud.com/parseN';
-//	$.getJSON( url, {
-//	    format: "json"
-//	  })
-//	  .done(function( data ) {
-//		  console.log(data);
-//	  });
-//
-//});
+//cargo cuando lo pidas
+$("#refresh").click(function () {
+	get();
+	
+	
+});
 
 
+//funcion para actualizar valores
+var refresh = function(){
+	//Carga el resultado de Triple Tachira
+	$( "#TTa1-a" ).text(resultado.TRIPLETACHIRA1_A);
+	$( "#TTa1-b" ).text(resultado.TRIPLETACHIRA1_B);
+	
+}; 
+
+//Funcion para buscar los resultados en el servidot
+function get(){
+	
+	myurl = "http://nodejs-fyc.rhcloud.com/";
+	jQuery.ajax({
+	    type: 'GET',
+	    dataType: "json",	
+	    crossDomain: true,
+	    url: myurl,
+	    success: function () {
+	       //fino
+	    },
+	    error: function () {
+	       //error
+	    },
+
+	}).done(function (data) {
+	    console.log(data);
+	    resultado = data;
+	    refresh();
+	});
+	
+}
 
 
 
-//$(document).ready(function () {
-//    var url = 'http://nodejs-fyc.rhcloud.com/parseN';
-//    $.getJSON(url, function (data) {
-////    	$.each( data, function( key, val ) {
-////        alert(key);
-////    	});
-//    });
-//}); 
